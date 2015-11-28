@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class HistoricoPesosBD extends SQLiteOpenHelper {
 
     public HistoricoPesosBD(Context context) {
-        super(context, "historico_pesos", bd, 1);
+        super(context, "historico_pesos", null, 1);
     }
 
     @Override
